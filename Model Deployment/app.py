@@ -7,7 +7,7 @@ import tensorflow as tf
 from tensorflow import keras
 
 # Load your model and class names
-model = keras.models.load_model('Model Deployment/cnn_model.h5')
+model = keras.models.load_model('cnn_model.h5')
 class_names = ['Angry', 'Disgust', 'Fear', 'Happy', 'Neutral', 'Sad', 'Surprise']
 
 # Image Preprocessing
